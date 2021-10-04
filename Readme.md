@@ -66,7 +66,7 @@ To install node/npm you could use nvm. Google is your friend.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jrx2-dev/compound-portal-modal.git
+   git clone https://github.com/jrx2-dev/react-compound-portal-modal.git
    ```
 3. Install NPM packages
    ```sh
