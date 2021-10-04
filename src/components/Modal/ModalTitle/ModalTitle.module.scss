@@ -1,0 +1,40 @@
+.modalTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  .modalTitleText {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: darkslategray;
+    flex: 1;
+  }
+
+  .modalTitleCloseButtonContainer {
+    padding-left: 1rem;
+
+    .modalTitleCloseButton {
+      min-width: 1rem;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      background-color: transparent;
+
+      .modalTitleClosButtonIcon {
+        width: 1.6rem;
+        height: 2rem;
+
+        path {
+          fill: lightgray;
+        }
+
+        &:hover {
+          path {
+            fill: firebrick;
+          }
+        }
+      }
+    }
+  }
+}

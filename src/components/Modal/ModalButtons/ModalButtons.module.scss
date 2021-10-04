@@ -1,0 +1,31 @@
+.modalButtonsContainer {
+  display: flex;
+  margin: 2rem 0 1rem 0;
+  justify-content: end;
+
+  .modalButtonOk {
+    color: white;
+    background-color: lightseagreen;
+  }
+
+  .modalButtonCancel {
+    color: white;
+    background-color: firebrick;
+  }
+
+  .modalButton {
+    margin-left: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    min-width: 6rem;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
