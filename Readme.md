@@ -46,6 +46,8 @@
 
 This is a basic modal with compund components to show title, content and buttons. All this components could receive children to customize behaviour and design.
 
+Demo: [https://jrx2-dev.github.io/react-compound-portal-modal/](https://jrx2-dev.github.io/react-compound-portal-modal/)
+
 
 ### Built With
 
